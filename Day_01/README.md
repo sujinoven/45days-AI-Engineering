@@ -15,12 +15,9 @@ Built a Python program to simulate how LLMs select tokens using probabilities an
 - Python functions and dictionaries
 
 ### 🛠️ Tech Stack
-Python | VS Code | Git | GitHub
+Python | Jupyter Notebook | Git | GitHub
 
-### ▶️ Run the Project
-```bash
-python Day_01/01_token_simulator.py
-```
+
 
 ### 🔍 Key Learning
 - Low temperature → More predictable output
