@@ -1,0 +1,1 @@
+Day 18 is all about vector databases and chromadb.
