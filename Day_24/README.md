@@ -84,13 +84,7 @@ State management allows intermediate results to be preserved and reused.
 
 This project uses a controlled Python workflow. It is not yet a fully autonomous agent.
 
-## Practical Challenges
 
-- Test different research questions.
-- Add a document-counting tool.
-- Handle queries with no matching results.
-- Inspect the workflow state.
-- Experiment with the sequence of operations.
 
 ## Next Step
 
