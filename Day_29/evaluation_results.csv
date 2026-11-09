@@ -1,0 +1,6 @@
+id,question,answer,keyword_coverage,matched_keywords,passed,latency_seconds,error
+rag_001,What is RAG?,RAG uses retrieval to find relevant documents and generate a response.,1.0,"retrieval, documents, generate",True,0.0001,
+rag_002,What are embeddings?,Embeddings convert text into numerical vectors that represent meaning.,1.0,"text, numerical vectors, meaning",True,0.0,
+rag_003,What does a vector database do?,A vector database stores embeddings and supports similarity search.,1.0,"stores, embeddings, similarity",True,0.0,
+rag_004,Why do we chunk documents?,Chunking splits a long document into pieces.,0.0,,False,0.0,
+rag_005,What is semantic search?,Semantic search finds information based on meaning rather than only exact keywords.,1.0,"meaning, information, keywords",True,0.0,

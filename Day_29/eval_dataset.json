@@ -1,0 +1,52 @@
+[
+    {
+        "id": "rag_001",
+        "question": "What is RAG?",
+        "expected_answer": "RAG retrieves relevant information from documents and provides it to a language model to generate an answer.",
+        "expected_keywords": [
+            "retrieval",
+            "documents",
+            "generate"
+        ]
+    },
+    {
+        "id": "rag_002",
+        "question": "What are embeddings?",
+        "expected_answer": "Embeddings convert text into numerical vectors that represent semantic meaning.",
+        "expected_keywords": [
+            "text",
+            "numerical vectors",
+            "meaning"
+        ]
+    },
+    {
+        "id": "rag_003",
+        "question": "What does a vector database do?",
+        "expected_answer": "A vector database stores embeddings and supports similarity searches.",
+        "expected_keywords": [
+            "stores",
+            "embeddings",
+            "similarity"
+        ]
+    },
+    {
+        "id": "rag_004",
+        "question": "Why do we chunk documents?",
+        "expected_answer": "Chunking divides long documents into smaller pieces so relevant information can be retrieved efficiently.",
+        "expected_keywords": [
+            "smaller",
+            "chunks",
+            "retrieval"
+        ]
+    },
+    {
+        "id": "rag_005",
+        "question": "What is semantic search?",
+        "expected_answer": "Semantic search finds information based on meaning rather than only exact keyword matches.",
+        "expected_keywords": [
+            "meaning",
+            "information",
+            "keywords"
+        ]
+    }
+]
