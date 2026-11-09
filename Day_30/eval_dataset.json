@@ -1,0 +1,23 @@
+[
+    {
+        "id": "judge_001",
+        "question": "What is RAG?",
+        "context": "RAG stands for Retrieval-Augmented Generation. It retrieves relevant information from external documents and provides that information to a language model as context for generating an answer.",
+        "reference_answer": "RAG retrieves relevant information from documents and uses it as context to help a language model generate an answer.",
+        "generated_answer": "RAG retrieves relevant information from documents and gives it to an LLM to generate a grounded answer."
+    },
+    {
+        "id": "judge_002",
+        "question": "What are embeddings?",
+        "context": "Embeddings represent text as numerical vectors. These vectors capture semantic information and can be compared to find similar pieces of text.",
+        "reference_answer": "Embeddings convert text into numerical vectors that represent semantic meaning.",
+        "generated_answer": "Embeddings are numerical representations of text that help systems identify semantic similarity."
+    },
+    {
+        "id": "judge_003",
+        "question": "What is a vector database?",
+        "context": "A vector database stores vector embeddings and supports similarity search to retrieve relevant items.",
+        "reference_answer": "A vector database stores embeddings and helps retrieve similar information using vector similarity search.",
+        "generated_answer": "A vector database is a programming language used to train neural networks."
+    }
+]

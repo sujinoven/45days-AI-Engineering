@@ -1,0 +1,32 @@
+[
+    {
+        "id": "judge_001",
+        "question": "What is RAG?",
+        "correctness": 5,
+        "relevance": 5,
+        "faithfulness": 5,
+        "overall_score": 5,
+        "passed": true,
+        "explanation": "The generated answer correctly and succinctly explains that RAG retrieves relevant information from documents and provides it to a language model (LLM) to generate a grounded answer, which is in line with the reference answer and the retrieved context. It directly addresses the question and all factual claims are supported by the retrieved context."
+    },
+    {
+        "id": "judge_002",
+        "question": "What are embeddings?",
+        "correctness": 5,
+        "relevance": 5,
+        "faithfulness": 5,
+        "overall_score": 5,
+        "passed": true,
+        "explanation": "The generated answer correctly states that embeddings are numerical representations of text and that they help identify semantic similarity, which aligns well with both the reference answer and the retrieved context. It directly addresses the question and is fully supported by the retrieved context."
+    },
+    {
+        "id": "judge_003",
+        "question": "What is a vector database?",
+        "correctness": 1,
+        "relevance": 2,
+        "faithfulness": 1,
+        "overall_score": 1,
+        "passed": false,
+        "explanation": "The generated answer incorrectly describes a vector database as a programming language used to train neural networks, which is factually wrong. A vector database actually stores vector embeddings and supports similarity search, which the generated answer fails to mention. Therefore, the answer is not correct, not relevant to the question, and not faithful to the retrieved context."
+    }
+]
