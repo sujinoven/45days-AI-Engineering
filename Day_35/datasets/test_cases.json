@@ -1,0 +1,45 @@
+[
+    {
+        "id": "test_001",
+        "question": "What is RAG?",
+        "context": "RAG combines document retrieval with language generation.",
+        "expected_answer": "RAG retrieves relevant information and uses it to generate answers.",
+        "expected_keywords": [
+            "retrieves",
+            "information",
+            "generate"
+        ]
+    },
+    {
+        "id": "test_002",
+        "question": "What are embeddings?",
+        "context": "Embeddings represent text as numerical vectors.",
+        "expected_answer": "Embeddings convert text into numerical vectors.",
+        "expected_keywords": [
+            "text",
+            "numerical",
+            "vectors"
+        ]
+    },
+    {
+        "id": "test_003",
+        "question": "What is a vector database?",
+        "context": "Vector databases store embeddings and support similarity search.",
+        "expected_answer": "A vector database stores embeddings and supports similarity search.",
+        "expected_keywords": [
+            "embeddings",
+            "similarity",
+            "search"
+        ]
+    },
+    {
+        "id": "test_004",
+        "question": "Who invented Python?",
+        "context": "The supplied context contains no information about the creator of Python.",
+        "expected_answer": "The context does not provide that information.",
+        "expected_keywords": [
+            "context",
+            "information"
+        ]
+    }
+]

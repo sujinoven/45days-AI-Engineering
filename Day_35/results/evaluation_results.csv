@@ -1,0 +1,5 @@
+request_id,test_case_id,prompt_version,model,question,answer,score,passed,latency_ms,input_tokens,output_tokens,status
+fb3b857f-9947-4fc1-a73b-d800e6e444f9,test_001,v2,gpt-4.1-mini,What is RAG?,RAG is a method that combines document retrieval with language generation.,0.0,False,1922.23,80,14,success
+6f5fe646-8e58-4415-8e3b-2bbd66e11c32,test_002,v2,gpt-4.1-mini,What are embeddings?,Embeddings are numerical vectors that represent text.,1.0,True,2227.11,78,10,success
+71e9e06f-9cb1-4126-bb8a-2a789caba35f,test_003,v2,gpt-4.1-mini,What is a vector database?,"A vector database is a database that stores embeddings, which are numerical representations of data. It supports similarity search, meaning it can find items that are similar to a given query based on these embeddings.",1.0,True,1683.37,81,40,success
+62baa985-6794-4802-a495-29d343e94661,test_004,v2,gpt-4.1-mini,Who invented Python?,The context does not contain information about who invented Python.,1.0,True,2231.69,82,12,success
