@@ -1,0 +1,3 @@
+2026-11-10 21:58:19,263 | INFO | RAG application started.
+2026-11-10 21:58:19,268 | WARNING | No document was found for one query.
+2026-11-10 21:58:19,270 | ERROR | An API request failed.

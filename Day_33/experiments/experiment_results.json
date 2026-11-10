@@ -1,0 +1,76 @@
+[
+    {
+        "experiment_id": "bb50ef9b-b234-478d-9794-23bbfdffb695",
+        "prompt_name": "customer_support",
+        "prompt_version": "v1",
+        "model": "gpt-4.1-mini",
+        "dataset": "test_cases.json",
+        "created_at": 1794329843.9943905,
+        "results": [
+            {
+                "test_case_id": "case_001",
+                "answer": "Our refund period is 30 days from the date of purchase. If you request a refund within this time frame, we will be happy to assist you.",
+                "keyword_coverage": 1.0,
+                "latency_ms": 1978.63,
+                "input_tokens": 54,
+                "output_tokens": 32,
+                "status": "success"
+            },
+            {
+                "test_case_id": "case_002",
+                "answer": "We offer standard delivery for your orders. Currently, there is no information available about free delivery. If you have any other questions or need further assistance, please let us know!",
+                "keyword_coverage": 0.5,
+                "latency_ms": 1521.27,
+                "input_tokens": 56,
+                "output_tokens": 36,
+                "status": "success"
+            },
+            {
+                "test_case_id": "case_003",
+                "answer": "You can contact customer support by emailing support@example.com. They will be happy to assist you!",
+                "keyword_coverage": 1.0,
+                "latency_ms": 1842.22,
+                "input_tokens": 52,
+                "output_tokens": 20,
+                "status": "success"
+            }
+        ]
+    },
+    {
+        "experiment_id": "d8dc2f6c-ddac-4d03-a2bf-7ba744283f36",
+        "prompt_name": "customer_support",
+        "prompt_version": "v2",
+        "model": "gpt-4.1-mini",
+        "dataset": "test_cases.json",
+        "created_at": 1794329847.870478,
+        "results": [
+            {
+                "test_case_id": "case_001",
+                "answer": "You can request a refund within 30 days of purchase.",
+                "keyword_coverage": 1.0,
+                "latency_ms": 1405.02,
+                "input_tokens": 84,
+                "output_tokens": 13,
+                "status": "success"
+            },
+            {
+                "test_case_id": "case_002",
+                "answer": "We offer standard delivery. There is no information about free delivery. If you have other questions, please ask!",
+                "keyword_coverage": 0.5,
+                "latency_ms": 1294.65,
+                "input_tokens": 86,
+                "output_tokens": 23,
+                "status": "success"
+            },
+            {
+                "test_case_id": "case_003",
+                "answer": "You can contact customer support by emailing support@example.com.",
+                "keyword_coverage": 1.0,
+                "latency_ms": 1175.66,
+                "input_tokens": 82,
+                "output_tokens": 12,
+                "status": "success"
+            }
+        ]
+    }
+]

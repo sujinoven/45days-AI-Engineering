@@ -1,0 +1,28 @@
+[
+    {
+        "id": "case_001",
+        "question": "What is your refund period?",
+        "context": "Customers can request a refund within 30 days of purchase.",
+        "expected_keywords": [
+            "30 days",
+            "refund"
+        ]
+    },
+    {
+        "id": "case_002",
+        "question": "Do you offer free delivery?",
+        "context": "The company offers standard delivery. No information about free delivery is available.",
+        "expected_keywords": [
+            "not available",
+            "information"
+        ]
+    },
+    {
+        "id": "case_003",
+        "question": "How can I contact customer support?",
+        "context": "Customers can contact support at support@example.com.",
+        "expected_keywords": [
+            "support@example.com"
+        ]
+    }
+]
