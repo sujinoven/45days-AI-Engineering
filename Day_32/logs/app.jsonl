@@ -1,0 +1,10 @@
+{"timestamp": "2026-11-10T16:30:01.054647+00:00", "event": "request_started", "request_id": "4fc6b37a-6247-4d2a-a708-1ec60ff07aba", "question_category": "RAG"}
+{"timestamp": "2026-11-10T16:30:01.056573+00:00", "event": "retrieval_completed", "request_id": "4fc6b37a-6247-4d2a-a708-1ec60ff07aba", "latency_ms": 180, "retrieved_chunks": 3}
+{"timestamp": "2026-11-10T16:33:20.350626+00:00", "event": "request_started", "request_id": "79c49519-b0c0-4d8d-8f48-37fc57945f41"}
+{"timestamp": "2026-11-10T16:33:20.350626+00:00", "event": "operation_started", "request_id": "79c49519-b0c0-4d8d-8f48-37fc57945f41", "operation": "embedding"}
+{"timestamp": "2026-11-10T16:33:20.452847+00:00", "event": "operation_completed", "request_id": "79c49519-b0c0-4d8d-8f48-37fc57945f41", "operation": "embedding", "latency_ms": 100.8, "status": "success"}
+{"timestamp": "2026-11-10T16:33:20.454715+00:00", "event": "operation_started", "request_id": "79c49519-b0c0-4d8d-8f48-37fc57945f41", "operation": "retrieval"}
+{"timestamp": "2026-11-10T16:33:20.656132+00:00", "event": "operation_completed", "request_id": "79c49519-b0c0-4d8d-8f48-37fc57945f41", "operation": "retrieval", "latency_ms": 201.31, "status": "success"}
+{"timestamp": "2026-11-10T16:33:20.656132+00:00", "event": "operation_started", "request_id": "79c49519-b0c0-4d8d-8f48-37fc57945f41", "operation": "generation"}
+{"timestamp": "2026-11-10T16:33:21.060223+00:00", "event": "operation_completed", "request_id": "79c49519-b0c0-4d8d-8f48-37fc57945f41", "operation": "generation", "latency_ms": 404.11, "status": "success"}
+{"timestamp": "2026-11-10T16:33:21.062263+00:00", "event": "request_completed", "request_id": "79c49519-b0c0-4d8d-8f48-37fc57945f41", "total_latency_ms": 710.92, "status": "success"}
